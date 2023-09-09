@@ -1,0 +1,94 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-image: url('netflix-bg.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Banner styling */
+.banner {
+    margin-top: 100px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff151f;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #777;
+}
